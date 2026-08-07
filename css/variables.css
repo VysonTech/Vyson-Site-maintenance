@@ -1,0 +1,19 @@
+:root{
+  --bg: #f7f9ff;
+  --bg-deep: #eef2ff;
+  --surface: rgba(255,255,255,.72);
+  --surface-strong: rgba(255,255,255,.9);
+  --text: #0e1220;
+  --muted: #5b6477;
+  --line: rgba(44, 75, 255, .18);
+  --primary: #2057ff;
+  --primary-2: #7a2cff;
+  --primary-3: #00b7ff;
+  --shadow: 0 24px 70px rgba(12, 20, 48, .12);
+  --shadow-soft: 0 12px 30px rgba(12, 20, 48, .09);
+  --radius-xl: 30px;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --radius-sm: 12px;
+  --container: 1240px;
+}

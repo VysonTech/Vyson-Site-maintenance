@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Vyson Technologies is upgrading its website for a better experience. Check the live status, countdown, and updates."
+    />
+    <meta name="theme-color" content="#0a1020" />
+    <script
+      src="https://kit.fontawesome.com/57e5e83451.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Vyson Technologies | Website Upgrade in Progress</title>
+
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="ambient ambient-1"></div>
+      <div class="ambient ambient-2"></div>
+      <div class="grid-overlay"></div>
+
+      <main class="maintenance-page" id="page">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="brand-row reveal">
+            <a class="brand" href="#" aria-label="Vyson Technologies home">
+              <img src="assets/icons/favicon.svg" alt="" class="brand-mark" />
+              <span class="brand-text">
+                <strong>VYSON</strong>
+                <span>TECHNOLOGIES</span>
+              </span>
+            </a>
+
+            <div class="status-pill" aria-live="polite">
+              <span class="status-dot"></span>
+              <span id="statusLabel">Deploying upgrade</span>
+            </div>
+          </div>
+
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow reveal">Website upgrade in progress</p>
+              <h1 id="hero-title" class="reveal">
+                We’re upgrading for a <span>better experience.</span>
+              </h1>
+              <p class="lede reveal">
+                We’re working behind the scenes to bring you improved features,
+                stronger security, faster performance, and a cleaner, more
+                refined digital experience.
+              </p>
+
+              <div class="cta-row reveal">
+                <a class="btn btn-primary" href="#updates">View progress</a>
+                <a
+                  class="btn btn-secondary"
+                  href="mailto:support@vysontechnologies.com"
+                  >Contact support</a
+                >
+                <a class="btn btn-ghost" href="#labs">See what’s next</a>
+              </div>
+
+              <div class="info-cards">
+                <article class="info-card reveal">
+                  <div class="info-icon" aria-hidden="true">
+                    <i class="fa-regular fa-calendar-days"></i>
+                  </div>
+                  <div>
+                    <p class="label">Upgrade starts</p>
+                    <strong>10th August 2026</strong>
+                  </div>
+                </article>
+
+                <article class="info-card reveal">
+                  <div class="info-icon" aria-hidden="true">
+                    <i class="fa-regular fa-hourglass-half"></i>
+                  </div>
+                  <div>
+                    <p class="label">Estimated completion</p>
+                    <strong>10th September 2026</strong>
+                  </div>
+                </article>
+
+                <article class="info-card info-card-wide reveal">
+                  <div class="info-icon info-icon-heart" aria-hidden="true">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <div>
+                    <p class="label">Thank you for your patience</p>
+                    <strong
+                      >We appreciate your support while we make the site
+                      better.</strong
+                    >
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="hero-visual reveal" aria-label="Upgrade illustration">
+              <div class="crane crane-left" aria-hidden="true"></div>
+              <div class="gear gear-a" aria-hidden="true"></div>
+              <div class="gear gear-b" aria-hidden="true"></div>
+              <div class="card-cardboard" aria-hidden="true"></div>
+              <div class="laptop">
+                <div class="laptop-top">
+                  <div class="screen">
+                    <div class="screen-brand">
+                      <img
+                        src="assets/icons/favicon.svg"
+                        alt=""
+                        class="screen-mark"
+                      />
+                      <div class="screen-title">UPGRADING</div>
+                    </div>
+
+                    <div class="progress-wrap" aria-label="Upgrade progress">
+                      <div class="progress-track">
+                        <div class="progress-fill" id="progressFill"></div>
+                      </div>
+                      <div class="progress-meta">
+                        <span id="progressPercent">60%</span>
+                        <span id="progressStage">Refining platform</span>
+                      </div>
+                    </div>
+
+                    <p class="screen-note">Please check back later.</p>
+                  </div>
+                </div>
+                <div class="laptop-base"></div>
+                <div class="laptop-shadow"></div>
+              </div>
+              <div class="cone cone-a" aria-hidden="true"></div>
+              <div class="cone cone-b" aria-hidden="true"></div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="section updates-section reveal"
+          id="updates"
+          aria-labelledby="updates-title"
+        >
+          <div class="section-head">
+            <p class="section-kicker">Live project snapshot</p>
+            <h2 id="updates-title">What’s happening right now</h2>
+          </div>
+
+          <div class="snapshot-grid">
+            <article class="snapshot-card">
+              <div class="snapshot-top">
+                <span class="snapshot-dot live"></span>
+                <span>Current status</span>
+              </div>
+              <strong id="liveStatus">Deploying infrastructure</strong>
+              <p id="liveStatusDetail">
+                Server, security, and front-end improvements are being refined
+                and tested.
+              </p>
+            </article>
+
+            <article class="snapshot-card">
+              <div class="snapshot-top">
+                <span class="snapshot-dot"></span>
+                <span>Countdown</span>
+              </div>
+              <strong id="countdownMain">00d 00h 00m 00s</strong>
+              <p>
+                Estimated launch date:
+                <span class="accent">10th September 2026</span>
+              </p>
+            </article>
+
+            <article class="snapshot-card">
+              <div class="snapshot-top">
+                <span class="snapshot-dot"></span>
+                <span>Completion estimate</span>
+              </div>
+              <strong id="completionWindow">One full month</strong>
+              <p>
+                Unless there are no hindrances, the upgrade should be ready on
+                schedule.
+              </p>
+            </article>
+          </div>
+
+          <div class="timeline-card">
+            <div class="timeline-head">
+              <h3>Upgrade milestones</h3>
+              <p>
+                Progress is updated in real time based on the project window.
+              </p>
+            </div>
+
+            <ol class="timeline" id="timeline">
+              <li class="done">
+                <span></span><b>Planning & audit</b><small>Completed</small>
+              </li>
+              <li class="done">
+                <span></span><b>Design refinement</b><small>Completed</small>
+              </li>
+              <li class="active">
+                <span></span><b>Implementation</b><small>In progress</small>
+              </li>
+              <li>
+                <span></span><b>Testing & review</b><small>Upcoming</small>
+              </li>
+              <li>
+                <span></span><b>Public relaunch</b><small>Upcoming</small>
+              </li>
+            </ol>
+          </div>
+        </section>
+
+        <section
+          class="section labs-section reveal"
+          id="labs"
+          aria-labelledby="labs-title"
+        >
+          <div class="labs-card">
+            <div class="section-head compact">
+              <p class="section-kicker">Coming soon</p>
+              <h2 id="labs-title">Vyson Labs</h2>
+            </div>
+
+            <p class="labs-copy">
+              A place for upcoming products, experiments, prototypes, AI ideas,
+              and technologies currently under development.
+            </p>
+
+            <div class="labs-tags">
+              <span>AI Products</span>
+              <span>Research</span>
+              <span>Prototypes</span>
+              <span>Open Innovation</span>
+            </div>
+
+            <div class="labs-actions">
+              <a
+                class="btn btn-primary"
+                href="mailto:hello@vysontechnologies.com"
+                >Get notified</a
+              >
+              <a class="btn btn-secondary" href="#footer"
+                >Follow social updates</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="section features-section reveal"
+          aria-labelledby="features-title"
+        >
+          <div class="section-head">
+            <p class="section-kicker">Why this upgrade matters</p>
+            <h2 id="features-title">
+              The new experience is being built for speed, clarity, and trust
+            </h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <h3>Improved security</h3>
+              <p>
+                Updated protections, safer infrastructure, and better platform
+                hardening.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+              <h3>Better performance</h3>
+              <p>
+                Cleaner code, optimized assets, and a faster page experience
+                across devices.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3>New features</h3>
+              <p>
+                Enhanced structure, clearer content, and future-ready sections
+                for growth.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">
+                <i class="fa-solid fa-rocket"></i>
+              </div>
+              <h3>Prepared for scale</h3>
+              <p>
+                A solid base that can support products, blogs, labs, and future
+                expansion.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section
+          class="section contact-section reveal"
+          aria-labelledby="contact-title"
+        >
+          <div class="contact-card">
+            <div>
+              <p class="section-kicker">Need help?</p>
+              <h2 id="contact-title">
+                We’re still available while the site is being upgraded.
+              </h2>
+            </div>
+
+            <div class="contact-actions">
+              <a
+                class="btn btn-primary"
+                href="mailto:support@vysontechnologies.com"
+                >Email support</a
+              >
+              <a
+                class="btn btn-ghost"
+                href="https://wa.me/+256783446700"
+                target="_blank"
+                rel="noreferrer"
+                >WhatsApp Chat</a
+              >
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer" id="footer">
+        <div class="footer-left">
+          <a class="footer-brand" href="#">
+            <img
+              src="assets/icons/favicon.svg"
+              alt=""
+              class="brand-mark small"
+            />
+            <span>Vyson Technologies</span>
+          </a>
+          <p>Upgrade window: 10th August 2026 – 10th September 2026.</p>
+        </div>
+
+        <div class="footer-links">
+          <a
+            href="https://www.vysontechnologies.com"
+            target="_blank"
+            rel="noreferrer"
+            >Website</a
+          >
+          <a href="mailto:vysontechnologies@gmail.com">Support</a>
+          <a href="#labs">Labs</a>
+          <a href="#updates">Updates</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Vyson Technologies mark">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00b7ff"/>
+      <stop offset="45%" stop-color="#2057ff"/>
+      <stop offset="100%" stop-color="#7a2cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="#0d1020"/>
+  <path d="M55 62h52l21 55 47-55h56l-97 132h-43L55 62Z" fill="url(#g)"/>
+  <path d="M158 62h42v132h-42z" fill="url(#g)" transform="skewX(-14) translate(6 0)"/>
+</svg>
