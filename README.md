@@ -66,3 +66,12 @@ Edit these files for quick changes:
 ## Contact
 
 Update the email and website links in `index.html` to match your live support channels.
+
+### SSH Keys Configuration cmds (bash)
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+git config --global gpg.format ssh
+git config --global user.signingkey "~/.ssh/id_ed25519.pub"
+git config --global commit.gpgsign true
+
+git config --global gpg.ssh.program "C:/Program Files/OpenSSH/ssh-keygen.exe"
