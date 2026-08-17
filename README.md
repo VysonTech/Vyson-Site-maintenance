@@ -75,3 +75,7 @@ git config --global user.signingkey "~/.ssh/id_ed25519.pub"
 git config --global commit.gpgsign true
 
 git config --global gpg.ssh.program "C:/Program Files/OpenSSH/ssh-keygen.exe"
+
+## Set auto upstream (-u)
+
+git config --global push.autoSetupRemote true
