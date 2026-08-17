@@ -4,7 +4,7 @@
 
 # Vyson Technologies — Maintenance / Upgrade Page
 
-A clean, premium, deployment-ready maintenance page built with:
+This maintenance page was built with:
 
 - HTML5
 - CSS3
@@ -27,7 +27,7 @@ A clean, premium, deployment-ready maintenance page built with:
 
 ## Project window
 
-- Upgrade starts: **10th August 2026**
+- Upgrade started: **10th August 2026**
 - Estimated completion: **10th September 2026**
 
 ## Run locally
