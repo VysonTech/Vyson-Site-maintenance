@@ -28,7 +28,7 @@ A clean, premium, deployment-ready maintenance page built with:
 ## Project window
 
 - Upgrade starts: **10th August 2026**
-- Estimated completion: **10th September 2026**
+- Estimated completion: **10th October 2026**
 
 ## Run locally
 

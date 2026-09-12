@@ -1,4 +1,4 @@
-const completionDate = new Date('2026-09-10T23:59:59+03:00');
+const completionDate = new Date('2026-10-10T23:59:59+03:00');
 const launchDate = new Date('2026-08-10T00:00:00+03:00');
 const totalWindow = completionDate - launchDate;
 
