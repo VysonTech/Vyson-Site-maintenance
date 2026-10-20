@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 const completionDate = new Date("2026-12-10T23:59:59+03:00");
 const launchDate = new Date("2026-08-10T00:00:00+03:00");
-=======
-const completionDate = new Date('2026-10-10T23:59:59+03:00');
-const launchDate = new Date('2026-08-10T00:00:00+03:00');
->>>>>>> d037f490326fab442c1d7011444a72e14821c2f8
 const totalWindow = completionDate - launchDate;
 
 const progressFill = document.getElementById("progressFill");
@@ -16,11 +11,8 @@ const liveStatusDetail = document.getElementById("liveStatusDetail");
 const statusLabel = document.getElementById("statusLabel");
 
 function pad(value) {
-<<<<<<< HEAD
   return String(value).padStart(2, "0");
-=======
-  returstatusLabelart(2, '0');
->>>>>>> d037f490326fab442c1d7011444a72e14821c2f8
+  // returstatusLabelart(2, '0');
 }
 
 function updateCountdown() {
